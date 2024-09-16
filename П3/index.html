@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAT Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://th.bing.com/th/id/OIG3.W4slxqki.drA1Ifv6Oj5?dpr=2&pid=ImgDetMain");
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #FFD700;
+        }
+
+        .item {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            margin-bottom: 30px;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            max-width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover img {
+            transform: scale(1.05);
+        }
+
+        .article {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #f0f0f0;
+        }
+
+        .article p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .item {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* 添加左上角固定图片的样式 */
+        .fixed-image {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 左上角固定图片 -->
+    <img class="fixed-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZvlUFSwTbuHyBl3WD3XwzxOzrK4TswVcrOo__APOEqBvUah4T4xEvS_bbg&s" alt="Logo Image" />
+
+    <div class="container">
+        <h1>CAT Welcome</h1>
+
+        <div class="item">
+            <img src="https://img.freepik.com/free-photo/beautiful-kitten-with-colorful-clouds_23-2150752964.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726426800&semt=ais_hybrid"
+                alt="图片描述1" />
+            <div class="article">
+                <p>Регулярное кормление и свежая вода. Кошки нуждаются в сбалансированном питании и постоянном доступе к свежей воде. Это помогает поддерживать их здоровье и активность. Уход за шерстью. Кошки часто вылизывают свою шерсть, но им также нужна помощь в расчесывании, особенно если у них длинная шерсть.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="https://pic.rutubelist.ru/video/cb/ab/cbab556c2ae5680e56f6050a02d97f87.jpg"
+                alt="图片描述2" />
+            <div class="article">
+                <p>Это предотвращает образование колтунов и снижает количество шерсти в доме. Регулярные визиты к ветеринару.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvu_3RVMlYKIyvMb8YXhyau7VIjzeWcRV3Rg&s"
+                alt="图片描述3" />
+            <div class="article">
+                <p>Кошки должны регулярно посещать ветеринара для профилактических осмотров и вакцинаций. Это помогает выявить и предотвратить возможные заболевания на ранней стадии.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="https://avatars.mds.yandex.net/get-kinopoisk-post-img/1101236/e1e09992d39f539b736c891a42960a39/960x540"
+                alt="图片描述4" />
+            <div class="article">
+                <p>Регулярное кормление и свежая вода: Котятам необходимо сбалансированное питание и постоянный доступ к свежей воде для поддержания здоровья и активности.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="https://kor.ill.in.ua/m/610x385/2229578.jpg"
+                alt="图片描述5" />
+            <div class="article">
+                <p>Уход за шерстью: Регулярное расчесывание помогает предотвратить образование колтунов и уменьшает количество шерсти в доме.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/%D0%9A%D0%BE%D1%82.jpg"
+                alt="图片描述6" />
+            <div class="article">
+                <p>Регулярные визиты к ветеринару: Котята должны регулярно посещать ветеринара для профилактических осмотров и вакцинаций, чтобы предотвратить возможные заболевания.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
